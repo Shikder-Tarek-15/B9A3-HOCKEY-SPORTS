@@ -17,6 +17,8 @@
                 clifford: '#da373d',
                 'color-btn': '#FF4240',
                 'color-paragraph': '#13131899',
+                'color-border': '#1313181a',
+                'color-form': '#13131808',
               }
             }
           }
@@ -348,11 +350,11 @@
         <!-- --------------Client Question Section------------- -->
         <section class="mt-32">
             <div class="text-center">
-                <h2 class="text-2xl lg:text-4xl font-extrabold mb-6">Our New Products</h2>
+                <h2 class="text-2xl lg:text-4xl font-extrabold mb-6">Clients Question</h2>
                 <p class="font-medium text-color-paragraph mb-20 lg:w-[600px] mx-auto">Here is some frequently ask question.</p>
             </div>
 
-            <div class="flex flex-col lg:flex-row border border-color-paragraph rounded-2xl p-8 items-center">
+            <div class="flex flex-col lg:flex-row border border-color-paragraph rounded-2xl p-8 items-center gap-10">
                 <!-- --img div-- -->
                 <div class="">
                     <img src="./images/11.png" alt="">
@@ -435,23 +437,88 @@
         <!-- ------------get in touch Section------------ -->
         <section class="mt-32">
             <div class="text-center">
-                <h2 class="text-2xl lg:text-4xl font-extrabold mb-6">Our New Products</h2>
-                <p class="font-medium text-color-paragraph mb-20 lg:w-[600px] mx-auto">Here is some frequently ask question.</p>
+                <h2 class="text-2xl lg:text-4xl font-extrabold mb-6">Get In Touch</h2>
+                <p class="font-medium text-color-paragraph mb-20 lg:w-[600px] mx-auto">To get in touch with us then call or mail us. or send us direct message from here.</p>
             </div>
 
-            <!-- ---Contact div--- -->
-            <div class="">
+           <div class="flex gap-6 flex-col lg:flex-row items-center">
 
+             <!-- ---Contact div--- -->
+             <div class="flex flex-col gap-6 p-12 border border-color-border rounded-xl">
+              <!-- --Card-1-- -->
+              <div class="bg-amber-50 p-8 rounded-xl">
+                <img class="mb-6" src="./images/Group 1171275317.png" alt="">
+                <p class="mb-2 text-color-paragraph">Phone Number:</p>
+                <p class="font-extrabold text-xl">(+62) 123-321-543</p>
+              </div>
+              <!-- --Card-1-- -->
+              <div class="bg-amber-50 p-8 rounded-xl">
+                <img class="mb-6" src="./images/Group 1171275318.png" alt="">
+                <p class="mb-2 text-color-paragraph">Email:</p>
+                <p class="font-extrabold text-xl">hockeys@support.com</p>
+              </div>
+              <!-- --Card-1-- -->
+              <div class="bg-blue-50 p-8 rounded-xl">
+                <img class="mb-6" src="./images/Group 1171275321.png" alt="">
+                <p class="mb-2 text-color-paragraph">Location:</p>
+                <p class="font-extrabold text-xl">152/1 Mohakhali Wireless Gate</p>
+              </div>
+              
             </div>
 
             <!-- ---Form div--- -->
-            <div class="">
+            <div class="flex-1">
 
+              <!-- --name div-- -->
+              <div class="flex flex-col lg:flex-row gap-6">
+                <div class="flex flex-col flex-1 gap-4">
+                  <p class="text-xl font-bold">Your Name</p>
+                  <input placeholder="Enter your name" class="bg-color-form p-5 rounded-xl" type="text">
+                </div>
+                <div class="flex flex-col flex-1 gap-4">
+                  <p class="text-xl font-bold">Your Email</p>
+                  <input placeholder="Enter your email" class="bg-color-form p-5 rounded-xl" type="text">
+                </div>
+              </div>
+
+              <!-- --subject div-- -->
+              <div class="flex flex-col lg:flex-row gap-6 mt-6">
+                <div class="flex flex-col flex-1 gap-4">
+                  <p class="text-xl font-bold">Subject</p>
+                  <input placeholder="Enter your subject" class="bg-color-form p-5 rounded-xl" type="text">
+                </div>
+                <div class="flex flex-col flex-1 gap-4">
+                  <p class="text-xl font-bold">Phone Number</p>
+                  <input placeholder="Enter your phone number" class="bg-color-form p-5 rounded-xl" type="text">
+                </div>
+              </div>
+
+              <!-- --Message div-- -->
+              <div class="mb-6 mt-6 flex flex-col gap-6">
+                <p class="text-xl font-bold">Message</p>
+                <textarea class="bg-color-form p-5 rounded-xl" placeholder="Write your message" cols="30" rows="10"></textarea>
+                <button class="btn bg-color-btn text-xl font-bold text-white">Send Message</button>
+              </div>
             </div>
+
+           </div>
+
+           <div class="bg-color-form mt-12 p-9 text-center rounded-xl">
+            <h2 class="text-2xl font-extrabold mb-6">Social Media</h2>
+            <div class="flex gap-6 justify-center">
+              <a href="" class=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class=""><i class="fa-brands fa-facebook"></i></a>
+              <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
+              <a href="" class=""><i class="fa-brands fa-github"></i></a>
+            </div>
+           </div>
         </section>
+
+
+
     </main>
 
-    <footer class="footer p-10 bg-black text-base-content text-gray-100">
+    <footer class="footer p-10 bg-black text-base-content text-gray-100 mt-24">
         <aside>
           <h2 class="text-2xl font-extrabold mb-4">Get In Touch</h2>
           <p class="mb-6">Stay connected with us. <br> If you need help. please reachout</p>
